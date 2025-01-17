@@ -1,0 +1,17 @@
+streamlit
+pillow
+datasets
+transformers
+einops
+torch 
+safetensors
+huggingface_hub
+natsort
+accelerate
+simple_parsing
+ipympl
+itertools
+pickle
+pandas
+opencv-python
+pybase64
