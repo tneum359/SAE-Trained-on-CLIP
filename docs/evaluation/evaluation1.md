@@ -1,0 +1,31 @@
+### Intuitive Evaluation
+Perhaps the most intuitive way of evaluating the SAE is by simply investigating the highest firing images for each neuron and identifying a pattern. I trained three models, and the you can select which model to display images for in the model selector. Models 2 and 3 seem to offer intuitive feauture explanations while 1 does not, which is expected. Because I trained on a relatively small subsample of the the imagenet-1k, many of these features tend to align with class labels—importantly, however, the # images that feature in a neurons topK activating images are ~700, which is much larger than the 100 classes present in imagenet-mini. For this reason, the model likely has learned features that go beyond just class labels, and this aligns with some examples I found while playing with the demo:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
