@@ -1,0 +1,5 @@
+The following is an interactive demo that displays the top 16 images associated to a randomly selected neuron from one of the 3 SAE's I trained on imagenet-mini. Select which model to display associated images for with the drop down below. Model 1 was trained on the entire sequence of token sequences and has poor performance, while model 2 and 3 were trained on the CLS token with more optimized hyperparameters, and generally give interpretable features—it's cool to see how small architectural changes can greatly impact interpretability!
+
+This demo was created by looping over entire dataset and calculating a dictionary of the highest activating images for each neuron. Not all neurons give seemingly interpretable features, but most neurons in models 2 and 3 do! See side sections for project details.
+
+For a full walkthrough of the contents of the project folders, see the readme in the associated github repo. 
